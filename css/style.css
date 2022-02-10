@@ -92,6 +92,10 @@ a {
     .inline {
         display: flex;
     }
+
+    .row_footer {
+        width: calc(100% / 3);
+    }
     
 }
 
