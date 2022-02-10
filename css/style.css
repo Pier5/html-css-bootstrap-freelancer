@@ -3,6 +3,18 @@
     color: white;
 }
 
+:root {
+    --green: #1abc9c;
+}
+
 .offset-9.col-sm-3.border {
     color: #adb5bd;
+}
+
+.green {
+    background-color: var(--green);
+}
+
+.text_big {
+    font-size: 40px;
 }
