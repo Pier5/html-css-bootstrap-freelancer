@@ -18,17 +18,11 @@ a {
     background-color: #1abc9c;
 }
 
-.cover {
-    /* altezza data per ora */
-   
-}
-
 .circle {
     /* altezza e larghezza date per ora */
     width: 100px;
     height: 100px;
     border-radius: 50%;
-
     /* bgk provvisorio */
     background-color: white;
 }
