@@ -40,3 +40,8 @@ a {
 .text_green {
     color: #1abc9c;
 }
+
+.icon_social {
+    width: 35px;
+    height: 35px;
+}
