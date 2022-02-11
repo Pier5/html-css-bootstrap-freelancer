@@ -9,6 +9,8 @@
     <!-- link Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+    <!-- link fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- link css -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -19,12 +21,13 @@
             <div class="row head text-white">
                 <div class="col-10 col-md-7 py-4 text-uppercase h4"><a class="text-white" href="#">Start Bootstrap</a></div>
                 <div class="col-2 col-md-5 py-4">
-                    <div class="text-center border border-secondary d-block d-md-none d-lg-none">Ciao</div>
+
+                    <a href=""><div class="text-center border border-white d-block d-md-none d-lg-none"><i class="text-white fa-solid fa-bars"></i></div></a>
                     <nav class="head-nav d-none d-md-block d-lg-block">
                         <ul class="d-flex justify-content-evenly text-uppercase text-end small">
-                            <li><a class="text-white" href="#">Portfolio</a></li>
-                            <li><a class="text-white" href="#">About</a></li>
-                            <li><a class="text-white" href="#">Contact</a></li> 
+                            <li><a class="text-white fw-bolder" href="#">Portfolio</a></li>
+                            <li><a class="text-white fw-bolder" href="#">About</a></li>
+                            <li><a class="text-white fw-bolder" href="#">Contact</a></li> 
                         </ul>
                     </nav>
                 </div>
@@ -37,7 +40,7 @@
             <div class="container">
                 <div class="row d-flex justify-content-center">
                     <div class="col-12 pt-5 w-25">
-                        <img src="img/avatar.svg" alt="">
+                        <img src="img/avatar.svg" alt="Avatar">
                     </div>
                 </div>
                 <div class="row">
@@ -48,12 +51,12 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 text-center py-2">
-                        <span>Due linette con icona stella</span>
+                    <div class="col-12 d-flex justify-content-center align-items-center py-2">
+                       <div class="hr"></div><i class="fas fa-star px-3 text-white"></i><div class="hr"></div> 
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 text-center text-uppercase text-white h5 py-3">
+                    <div class="col-12 text-center text-uppercase text-white fs-5 py-3">
                         Graphic Artist - Web Designer - Illustrator
                     </div>
                 </div>
@@ -64,12 +67,12 @@
         <section class="container">
             <div class="row">
                 <div class="col-12 text-uppercase text-center py-3">
-                    <span class="h4">Portfolio</span>
+                    <span class="h4 fw-bolder">Portfolio</span>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 text-center py-2">
-                    <span>Due linette con icona stella neri</span>
+                <div class="col-12 text-center py-2 d-flex justify-content-center align-items-center">
+                    <div class="hr_black"></div><i class="fas fa-star px-3"></i><div class="hr_black"></div> 
                 </div>
             </div>
         </section>
@@ -77,37 +80,24 @@
         <!-- quarta sezione con le immagini tonde al centro -->
         <section class="container">
             <div class="row">
-                <div class="cover col-12 col-md-6 col-lg-4 gy-3">
-                    <div class="purple d-flex justify-content-center align-items-center">
-                        <div class="circle my-3"></div>
-                    </div>
+                <div class="col-12 col-md-6 col-lg-4 g-3">
+                    <img class="w-100 rounded" src="img/cabin.png" alt="Immagine baita">
                 </div>
-                <div class="cover col-12 col-md-6 col-lg-4 gy-3">
-                    <div class=" heavenly d-flex justify-content-center align-items-center">
-                        <div class="circle my-3"></div>
-                    </div>
+                <div class="col-12 col-md-6 col-lg-4 g-3">
+                    <img class="w-100 rounded" src="img/cake.png" alt="Immagine fetta di torta">
                 </div>
-                <div class="cover col-12 col-md-6 col-lg-4 gy-3">
-                    <div class="black d-flex justify-content-center align-items-center">
-                        <div class="circle my-3"></div>
-                    </div>
+                <div class="col-12 col-md-6 col-lg-4 g-3">
+                    <img class="w-100 rounded" src="img/circus.png" alt="Immagine padiglione del circo">
                 </div>
-                <div class="cover col-12 col-md-6 col-lg-4 gy-3">
-                    <div class="lightblue d-flex justify-content-center align-items-center">
-                        <div class="circle my-3"></div>
-                    </div>
+                <div class="col-12 col-md-6 col-lg-4 g-3">
+                    <img class="w-100 rounded" src="img/game.png" alt="Immagine joypad Nintendo">
                 </div>
-                <div class="cover col-12 col-md-6 col-lg-4 gy-3">
-                    <div class="blue d-flex justify-content-center align-items-center">
-                        <div class="circle my-3"></div>
-                    </div>
+                <div class="col-12 col-md-6 col-lg-4 g-3">
+                    <img class="w-100 rounded" src="img/safe.png" alt="Immagine cassaforte">
                 </div>
-                <div class="cover col-12 col-md-6 col-lg-4 gy-3">
-                    <div class="brown d-flex justify-content-center align-items-center">
-                        <div class="circle my-3"></div>
-                    </div>
+                <div class="col-12 col-md-6 col-lg-4 g-3">
+                    <img class="w-100 rounded" src="img/submarine.png" alt="Immagine sottomarino giallo">
                 </div>
-
             </div>
         </section>
     
@@ -120,8 +110,8 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="text-center py-1">
-                        <span>Due linette con icona stella</span>
+                    <div class="text-center py-1 d-flex justify-content-center align-items-center">
+                        <div class="hr"></div><i class="fas fa-star px-3 text-white"></i><div class="hr"></div> 
                     </div>
                 </div>
                 <div class="row">
@@ -148,8 +138,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="text-center pb-1">
-                    <span>Due linette con icona stella neri</span>
+                <div class="text-center pb-1 d-flex justify-content-center align-items-center pb-3">
+                    <div class="hr_black"></div><i class="fas fa-star px-3"></i><div class="hr_black"></div> 
                 </div>
             </div>
             <div class="row">

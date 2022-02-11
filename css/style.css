@@ -10,45 +10,18 @@ a {
     text-decoration: none;
 }
 
-.offset-9.col-sm-3.border {
-    color: #adb5bd;
-}
-
 .green {
     background-color: #1abc9c;
 }
 
-.circle {
-    /* altezza e larghezza date per ora */
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    /* bgk provvisorio */
-    background-color: white;
+.hr {
+	border-top: 2px solid white;
+	width: 8%;
 }
 
-.purple {
-    background-color: #ba4b63;
-}
-
-.heavenly {
-    background-color: #1ea4b6;
-}
-
-.black {
-    background-color: black;
-}
-
-.lightblue {
-    background-color: #1c83c1;
-}
-
-.blue {
-    background-color: #0e38b5;
-}
-
-.brown {
-    background-color: #ccb2a3;
+.hr_black {
+    border-top: 2px solid black;
+    width: 8%;
 }
 
 .btn_border {
