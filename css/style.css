@@ -1,5 +1,10 @@
 header {
     background-color: #2c3e50;
+    z-index: 1;
+}
+
+main {
+    padding-top: 80px;
 }
 
 ul {
@@ -8,6 +13,14 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+.a_nav:hover {
+    background-color: lightgrey;
+}
+
+.li_text:hover {
+    color: #1abc9c;
 }
 
 .green {
@@ -24,9 +37,50 @@ a {
     width: 8%;
 }
 
-.btn_border {
+.cover:hover {
+    cursor: pointer;
+    filter: opacity(.3);
+}
+
+
+.plus_inside {
+    display: none;
+    font-size: 5rem;
+}
+
+.colored:hover .plus_inside {
+    display: block;
+    cursor: pointer;
+}
+
+.colored {
+    background-color: #1abc9c;
+}
+
+.btn_border,
+.btn_border_two {
     border: 1px solid white;
     border-radius: 4px;
+}
+
+.btn_border:hover {
+    background-color: white;
+}
+
+.btn_border:hover .fa-solid.fa-download {
+    color: black;
+}
+
+.btn_text {
+    padding-left: .2rem;
+}
+
+.btn_border:hover .btn_text {
+    color: black;
+}
+
+.btn_border_two:hover {
+    filter: brightness(.9);
 }
 
 .footer_top {
@@ -39,6 +93,11 @@ a {
 
 .text_green {
     color: #1abc9c;
+    cursor: pointer;
+}
+
+.text_green:hover {
+    text-decoration: underline;
 }
 
 .icon_social {
